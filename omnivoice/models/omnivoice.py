@@ -342,7 +342,7 @@ class OmniVoice(PreTrainedModel):
 
         try:
             # Resolve to local path first; download only if not already cached
-            resolved_path = _resolve_model_path(pretrained_model_name_or_path)
+            resolved_path = pretrained_model_name_or_path # _resolve_model_path(pretrained_model_name_or_path)
 
             model = super().from_pretrained(resolved_path, *args, **kwargs)
 
@@ -414,7 +414,7 @@ class OmniVoice(PreTrainedModel):
             torch.float16 if str(device).startswith(("cuda", "xpu")) else torch.float32
         )
 
-        model_name = _resolve_model_path(model_name)
+        # model_name = _resolve_model_path(model_name)
 
         # Use `device=` (single-device placement) rather than `device_map=`:
         # pipeline() ignores a plain device string in `device_map` and

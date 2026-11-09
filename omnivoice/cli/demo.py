@@ -22,6 +22,8 @@ Supports voice cloning and voice design.
 Usage:
     omnivoice-demo --model /path/to/checkpoint --port 8000
 """
+import os
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 import argparse
 import logging
@@ -110,7 +112,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--model",
-        default="k2-fsa/OmniVoice",
+        default= "./models/OmniVoice",  #"k2-fsa/OmniVoice",
         help="Model checkpoint path or HuggingFace repo id.",
     )
     parser.add_argument(
@@ -137,7 +139,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--asr-model",
-        default="openai/whisper-large-v3-turbo",
+        default="./models/whisper-large-v3-turbo",# "openai/whisper-large-v3-turbo",
         help="ASR model path or HuggingFace repo id"
         " (default: openai/whisper-large-v3-turbo).",
     )

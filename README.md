@@ -1,3 +1,662 @@
+---
+base_model:
+- Qwen/Qwen3-0.6B
+language:
+- aae
+- aal
+- aao
+- ab
+- abb
+- abn
+- abr
+- abs
+- abv
+- acm
+- acw
+- acx
+- adf
+- adx
+- ady
+- aeb
+- aec
+- af
+- afb
+- afo
+- ahl
+- ahs
+- ajg
+- aju
+- ala
+- aln
+- alo
+- am
+- amu
+- an
+- anc
+- ank
+- anp
+- anw
+- aom
+- apc
+- apd
+- arb
+- arq
+- ars
+- ary
+- arz
+- as
+- ast
+- avl
+- awo
+- ayl
+- ayp
+- az
+- ba
+- bag
+- bas
+- bax
+- bba
+- bbj
+- bbl
+- bbu
+- bce
+- bci
+- bcs
+- bcy
+- bda
+- bde
+- bdm
+- be
+- beb
+- bew
+- bfd
+- bft
+- bg
+- bgp
+- bhb
+- bhh
+- bho
+- bhp
+- bhr
+- bjj
+- bjk
+- bjn
+- bjt
+- bkh
+- bkm
+- bky
+- bmm
+- bmq
+- bn
+- bnm
+- bnn
+- bns
+- bo
+- bou
+- bqg
+- br
+- bra
+- brh
+- bri
+- brx
+- bs
+- bsh
+- bsj
+- bsk
+- btm
+- btv
+- bug
+- bum
+- buo
+- bux
+- bwr
+- bxf
+- byc
+- bys
+- byv
+- byx
+- bzc
+- bzw
+- ca
+- ccg
+- ceb
+- cen
+- cfa
+- cgg
+- chq
+- cjk
+- ckb
+- ckl
+- ckr
+- cky
+- cnh
+- cpy
+- cs
+- cte
+- ctl
+- cut
+- cux
+- cv
+- cy
+- da
+- dag
+- dar
+- dav
+- dbd
+- dcc
+- de
+- deg
+- dgh
+- dgo
+- dje
+- dmk
+- dml
+- dru
+- dty
+- dua
+- dv
+- dyu
+- dzg
+- ebr
+- ebu
+- ego
+- eiv
+- eko
+- ekr
+- el
+- elm
+- en
+- eo
+- es
+- esu
+- et
+- eto
+- ets
+- etu
+- eu
+- ewo
+- ext
+- eyo
+- fa
+- fan
+- fat
+- ff
+- ffm
+- fi
+- fia
+- fil
+- fip
+- fkk
+- fmp
+- fr
+- fub
+- fuc
+- fue
+- fuf
+- fuh
+- fui
+- fuq
+- fuv
+- fy
+- ga
+- gbm
+- gbr
+- gby
+- gcc
+- gdf
+- gej
+- ges
+- ggg
+- gid
+- gig
+- giz
+- gjk
+- gju
+- gl
+- glw
+- gn
+- gol
+- gom
+- gsl
+- gu
+- gui
+- gur
+- guz
+- gv
+- gwc
+- gwe
+- gwt
+- gya
+- gyz
+- ha
+- hah
+- hao
+- haw
+- haz
+- hbb
+- he
+- hem
+- hi
+- hia
+- hkk
+- hla
+- hno
+- hoj
+- hr
+- hsb
+- ht
+- hu
+- hue
+- hul
+- hux
+- hwo
+- hy
+- hz
+- ia
+- ibb
+- id
+- ida
+- idu
+- ig
+- ijc
+- ijn
+- ik
+- ikw
+- is
+- ish
+- iso
+- it
+- its
+- itw
+- itz
+- ja
+- jal
+- jax
+- jgo
+- jmx
+- jns
+- jqr
+- juk
+- juo
+- jv
+- ka
+- kab
+- kai
+- kaj
+- kam
+- kbd
+- kbl
+- kbt
+- kcq
+- kdh
+- kea
+- keu
+- kfe
+- kfk
+- kfp
+- khg
+- khw
+- kj
+- kjc
+- kjk
+- kk
+- kln
+- kls
+- km
+- kmr
+- kmy
+- kn
+- kna
+- knn
+- ko
+- kol
+- koo
+- kpo
+- kqo
+- ks
+- ksd
+- ksf
+- kto
+- kuh
+- kvx
+- kw
+- kwm
+- kxp
+- ky
+- kyx
+- lag
+- lb
+- lcm
+- ldb
+- lg
+- lij
+- lir
+- lkb
+- lla
+- ln
+- lnu
+- lo
+- loa
+- lrk
+- lss
+- lt
+- ltg
+- lto
+- lua
+- luo
+- lus
+- lv
+- lwg
+- mab
+- maf
+- mai
+- mau
+- max
+- mbo
+- mcf
+- mcn
+- mcx
+- mdd
+- mde
+- mdf
+- mek
+- mer
+- meu
+- mfm
+- mfn
+- mfo
+- mfv
+- mgg
+- mgi
+- mhk
+- mhr
+- mi
+- mig
+- miu
+- mk
+- mkf
+- mki
+- ml
+- mlq
+- mn
+- mne
+- mni
+- mqy
+- mr
+- mrj
+- mrr
+- mrt
+- ms
+- mse
+- msh
+- msw
+- mt
+- mtr
+- mtu
+- mtx
+- mua
+- mug
+- mui
+- mve
+- mvy
+- mxs
+- mxu
+- mxy
+- my
+- myv
+- mzl
+- nal
+- nan
+- nap
+- nb
+- nbh
+- ncf
+- nco
+- ncx
+- ndi
+- ng
+- ngi
+- nhg
+- nhi
+- nhn
+- nhq
+- nja
+- nl
+- nla
+- nlv
+- nmg
+- nmz
+- nn
+- nnh
+- 'no'
+- noe
+- npi
+- nso
+- ny
+- nyu
+- oc
+- odk
+- odu
+- ogo
+- om
+- orc
+- oru
+- ory
+- os
+- pa
+- pbs
+- pbt
+- pbu
+- pcm
+- pex
+- phl
+- phr
+- pip
+- piy
+- pko
+- pl
+- plk
+- plt
+- pmq
+- pms
+- pmy
+- pnb
+- poc
+- poe
+- pow
+- prq
+- ps
+- pst
+- pt
+- pua
+- pwn
+- qug
+- qum
+- qup
+- qur
+- qus
+- quv
+- qux
+- quy
+- qva
+- qvi
+- qvj
+- qvl
+- qwa
+- qws
+- qxa
+- qxp
+- qxt
+- qxu
+- qxw
+- rag
+- rm
+- ro
+- rob
+- rof
+- roo
+- rth
+- ru
+- rup
+- rw
+- sa
+- sah
+- sat
+- sau
+- say
+- sbn
+- sc
+- scl
+- scn
+- sd
+- sei
+- shu
+- si
+- sip
+- siw
+- sjr
+- sk
+- skg
+- skr
+- sl
+- sn
+- snc
+- snk
+- so
+- sol
+- sps
+- sq
+- sr
+- src
+- sro
+- ssi
+- ste
+- sua
+- sv
+- sva
+- sw
+- szy
+- ta
+- tan
+- tar
+- tay
+- tbf
+- tcf
+- tcy
+- tdn
+- tdx
+- te
+- tg
+- tgc
+- th
+- the
+- thq
+- thr
+- thv
+- ti
+- tig
+- tio
+- tk
+- tkg
+- tkt
+- tli
+- tlp
+- tn
+- tok
+- tpl
+- tpz
+- tqp
+- tr
+- trp
+- trq
+- trv
+- trw
+- tt
+- ttj
+- ttr
+- ttu
+- tui
+- tul
+- tuq
+- tuv
+- tuy
+- tvo
+- tvu
+- tw
+- twu
+- txs
+- txy
+- udl
+- ug
+- uk
+- uki
+- umb
+- ur
+- ush
+- uz
+- uzn
+- vai
+- var
+- ver
+- vi
+- vmc
+- vmj
+- vmm
+- vmp
+- vmz
+- vot
+- vro
+- wbl
+- wci
+- weo
+- wes
+- wja
+- wji
+- wo
+- wof
+- xh
+- xhe
+- xka
+- xmf
+- xmv
+- xmw
+- xpe
+- xti
+- xtu
+- yaq
+- yav
+- yay
+- ydd
+- ydg
+- yer
+- 'yes'
+- yi
+- yo
+- yue
+- zga
+- zgh
+- zh
+- zoc
+- zoh
+- zor
+- zpv
+- zpy
+- ztg
+- ztn
+- ztp
+- zts
+- ztu
+- zu
+- zza
+pipeline_tag: text-to-speech
+tags:
+- zero-shot
+- multilingual
+- voice-cloning
+- voice-design
+library_name: omnivoice
+---
+
 # OmniVoice 🌍
 
 <p align="center">
@@ -9,33 +668,35 @@
   &nbsp;
   <a href="https://huggingface.co/spaces/k2-fsa/OmniVoice"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-blue" alt="Hugging Face Space"></a>
   &nbsp;
-  <a href="https://arxiv.org/abs/2604.00688"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
+  <a href="https://huggingface.co/papers/2604.00688"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
+  &nbsp;
+  <a href="https://github.com/k2-fsa/OmniVoice"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=GitHub" alt="GitHub Code"></a>
   &nbsp;
   <a href="https://zhu-han.github.io/omnivoice"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=GitHub&style=flat-square"></a>
   &nbsp;
   <a href="https://colab.research.google.com/github/k2-fsa/OmniVoice/blob/master/docs/OmniVoice.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 </p>
 
-OmniVoice is a state-of-the-art massively multilingual zero-shot text-to-speech (TTS) model supporting over 600 languages. Built on a novel diffusion language model-style architecture, it generates high-quality speech with superior inference speed, supporting voice cloning and voice design.
 
-**Contents**: [Key Features](#key-features) | [Installation](#installation) | [Quick Start](#quick-start) | [Python API](#python-api) | [Command-Line Tools](#command-line-tools) | [Training & Evaluation](#training--evaluation) | [Discussion](#discussion--communication) | [Citation](#citation)
+OmniVoice is a massively multilingual zero-shot text-to-speech (TTS) model supporting over 600 languages. Built on a novel diffusion language model-style architecture, it delivers high-quality speech with superior inference speed, supporting voice cloning and voice design.
+
+- **Paper:** [OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models](https://huggingface.co/papers/2604.00688)
+- **Repository:** [GitHub](https://github.com/k2-fsa/OmniVoice)
+- **Demo:** [Hugging Face Space](https://huggingface.co/spaces/k2-fsa/OmniVoice)
+- **Colab:** [Google Colab Notebook](https://colab.research.google.com/github/k2-fsa/OmniVoice/blob/master/docs/OmniVoice.ipynb)
 
 ## Key Features
 
-- **600+ Languages Supported**: The broadest language coverage among zero-shot TTS models ([full list](docs/languages.md)).
-- **Voice Cloning**: State-of-the-art voice cloning quality.
+- **600+ Languages Supported**: The broadest language coverage among zero-shot TTS models.
+- **Voice Cloning**: State-of-the-art voice cloning quality from a short reference audio.
 - **Voice Design**: Control voices via assigned speaker attributes (gender, age, pitch, dialect/accent, whisper, etc.).
 - **Fine-grained Control**: Non-verbal symbols (e.g., `[laughter]`) and pronunciation correction via pinyin or phonemes.
 - **Fast Inference**: RTF as low as 0.025 (40x faster than real-time).
 - **Diffusion Language Model-style Architecture**: A clean, streamlined, and scalable design that delivers both quality and speed.
 
----
+## Usage
 
-## Installation
-
-Choose **one** of the following methods: **pip** or **uv**.
-
-### pip
+To get started, install the `omnivoice` library:
 
 > We recommend using a fresh virtual environment (e.g., `conda`, `venv`, etc.) to avoid conflicts.
 
@@ -61,330 +722,40 @@ pip install torch==2.8.0 torchaudio==2.8.0
 
 </details>
 
-<details>
-<summary>Intel Arc GPU (XPU)</summary>
-
-Intel Arc GPUs (Alchemist and Battlemage architectures) are supported via PyTorch's XPU backend.
-
-1. Install the [Intel GPU drivers](https://dgpu-docs.intel.com/driver/installation.html) for your OS.
-
-2. Install PyTorch with XPU support from Intel's wheel index:
+**Step 2**: Install OmniVoice
 
 ```bash
-pip install torch torchaudio --index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
-```
-
-> See [Intel's PyTorch XPU guide](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/) for version-specific instructions.
-
-3. Verify the backend is working:
-
-```bash
-python -c "import torch; print(torch.xpu.is_available(), torch.xpu.device_count())"
-```
-
-**Notes**:
-- `flash_attn` is not available on XPU; the model automatically falls back to SDPA.
-- Training with packed sequences (`flex_attention`) has partial XPU support; single-GPU SDPA training should work.
-- Tested on Arc A310 (Alchemist, 4 GB) and Arc Pro B50 (Battlemage, 16 GB).
-
-</details>
-
-**Step 2**: Install OmniVoice (choose one)
-
-```bash
-# From PyPI (stable release)
 pip install omnivoice
-
-# From the latest source on GitHub (no need to clone)
-pip install git+https://github.com/k2-fsa/OmniVoice.git
-
-# For development (clone first, editable install)
-git clone https://github.com/k2-fsa/OmniVoice.git
-cd OmniVoice
-pip install -e .
 ```
 
-### uv
+### Python API
 
-Clone the repository and sync dependencies:
-
-```bash
-git clone https://github.com/k2-fsa/OmniVoice.git
-cd OmniVoice
-uv sync
-```
-
-> **Tip**: Can use mirror with `uv sync --default-index "https://mirrors.aliyun.com/pypi/simple"`
-
----
-
-## Quick Start
-
-Try OmniVoice without coding:
-
-- Launch the local web UI: `omnivoice-demo --ip 0.0.0.0 --port 8001`
-
-- Or try it directly on [HuggingFace Space](https://huggingface.co/spaces/k2-fsa/OmniVoice)
-
-- Or run it in Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/k2-fsa/OmniVoice/blob/master/docs/OmniVoice.ipynb)
-
-> If you have trouble connecting to HuggingFace when downloading the pre-trained models, set `export HF_ENDPOINT="https://hf-mirror.com"` before running.
-
-For full usage, see the [Python API](#python-api) and [Command-Line Tools](#command-line-tools) sections below.
-
----
-
-## Python API
-
-OmniVoice supports three generation modes. All features in this section are also available via [command-line tools](#command-line-tools).
-
-### Voice Cloning
-
-Clone a voice from a short reference audio. Provide `ref_audio` and `ref_text`:
+You can use OmniVoice for zero-shot voice cloning as follows:
 
 ```python
 from omnivoice import OmniVoice
 import soundfile as sf
 import torch
 
+# Load the model
 model = OmniVoice.from_pretrained(
     "k2-fsa/OmniVoice",
     device_map="cuda:0",
     dtype=torch.float16
 )
-# Apple Silicon users: use device_map="mps" instead
-# Intel Arc GPU users: use device_map="xpu" instead
 
+# Generate audio
 audio = model.generate(
     text="Hello, this is a test of zero-shot voice cloning.",
     ref_audio="ref.wav",
     ref_text="Transcription of the reference audio.",
 ) # audio is a list of `np.ndarray` with shape (T,) at 24 kHz.
 
-# If you don't want to input `ref_text` manually, you can directly omit the `ref_text`.
-# The model will use Whisper ASR to auto-transcribe it. To use a local copy (or
-# a different Whisper model), pass `asr_model_name="..."` to `from_pretrained`.
-# To control which device Whisper is loaded on (e.g. another GPU in multi-GPU
-# setups, or the CPU), pass `asr_device="cuda:1"` (or `"cpu"`).
-
 sf.write("out.wav", audio[0], 24000)
 ```
 
-#### Reusing a cloned voice across sessions
+For more generation modes (e.g., voice design), functions (e.g., non-verbal symbols, pronunciation correction) and comprehensive usage instructions, see our [GitHub Repository](https://github.com/k2-fsa/OmniVoice).
 
-Encode the reference audio once, save the resulting prompt, and skip the
-audio loading / auto-transcription steps in later sessions:
-
-```python
-prompt = model.create_voice_clone_prompt(
-    ref_audio="ref.wav", ref_text="Transcription of the reference audio."
-)
-prompt.save("my_voice.pt")
-
-# Later, in a new session:
-from omnivoice import VoiceClonePrompt
-
-prompt = VoiceClonePrompt.load("my_voice.pt")
-audio = model.generate(text="Hello again!", voice_clone_prompt=prompt)
-```
-
-> **Tips**
->
-> - Use a 3–10 seconds reference audio clip. Longer audio slows down inference and may degrade cloning quality.
-> - For standard pronunciation, use a reference audio in the **same language** as the target speech. In cross-lingual voice cloning (i.e., the reference audio and target speech are in different languages), the generated speech will carry an accent from the reference audio's language.
-> - For better results with Arabic numerals, normalize them to words first (e.g., "123" → "one hundred twenty-three"). You can pass `normalize_text=True` to `generate()` to do this automatically (opt-in; install the extra with `pip install "omnivoice[tn]"`, which pulls in [WeTextProcessing](https://github.com/wenet-e2e/WeTextProcessing)):
->
->   ```python
->   # "I have 2345 apples." is read correctly instead of digit-by-digit.
->   audio = model.generate(text="I have 2345 apples.", normalize_text=True)
->   ```
->
->   Chinese and English use WeTextProcessing; other languages fall back to `num2words` for integers. Inline control syntax (`[laughter]`, `[B EY1 S]`, pinyin tone markers) is preserved. On macOS (Apple Silicon), `pynini` has no wheel — install it via `conda install -c conda-forge pynini` first.
->
-> For more tips, see [docs/tips.md](docs/tips.md).
-
-### Voice Design
-
-Describe the desired voice with speaker attributes — no reference audio needed.
-Supported attributes: **gender** (male/female), **age** (child to elderly),
-**pitch** (very low to very high), **style** (whisper), **English accent**
-(American, British, etc.), and **Chinese dialect** (四川话, 陕西话, etc.).
-Attributes are comma-separated and freely combinable across categories.
-
-```python
-audio = model.generate(
-    text="Hello, this is a test of zero-shot voice design.",
-    instruct="female, low pitch, british accent",
-)
-```
-
-> **Note**: The model is primarily trained on the voice cloning task, so voice cloning is the most stable mode. Voice design is trained on Chinese and English data only. It can generalize to other languages, but may produce unstable results for some low-resource languages or edge cases.
-
-See [docs/voice-design.md](docs/voice-design.md) for the full attribute
-reference, Chinese equivalents, and usage tips.
-
-### Auto Voice
-
-Let the model choose a voice automatically:
-
-```python
-audio = model.generate(text="This is a sentence without any voice prompt.")
-```
-
-### Generation Parameters
-
-All above three modes share the same `model.generate()` API. You can further control the generation behavior via keyword arguments:
-
-```python
-audio = model.generate(
-    text="...",
-    num_step=32,  # diffusion steps (or 16 for faster inference)
-    speed=1.0,     # speed factor (>1.0 faster, <1.0 slower)
-    duration=10.0, # fixed output duration in seconds (overrides speed)
-    # ... more options
-)
-```
-See more detailed control in [docs/generation-parameters.md](docs/generation-parameters.md).
-
-### Non-Verbal & Pronunciation Control
-
-OmniVoice supports inline **non-verbal symbols** and **pronunciation correction** within the input text.
-
-**Non-verbal symbols**: Insert tags like `[laughter]` directly in the text to add expressive non-verbal sounds.
-
-```python
-audio = model.generate(text="[laughter] You really got me. I didn't see that coming at all.")
-```
-
-Supported tags: `[laughter]`, `[sigh]`, `[confirmation-en]`, `[question-en]`, `[question-ah]`, `[question-oh]`, `[question-ei]`, `[question-yi]`, `[surprise-ah]`, `[surprise-oh]`, `[surprise-wa]`, `[surprise-yo]`, `[dissatisfaction-hnn]`.
-
-**Pronunciation control (Chinese)**: Use pinyin with tone numbers to correct specific character pronunciations.
-
-```python
-audio = model.generate(text="这批货物打ZHE2出售后他严重SHE2本了，再也经不起ZHE1腾了。")
-```
-
-**Pronunciation control (English)**: Use [CMU pronunciation dictionary](https://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/cmudict.0.7a)  (uppercase, in brackets) to override default English pronunciations.
-
-```python
-audio = model.generate(text="He plays the [B EY1 S] guitar while catching a [B AE1 S] fish.")
-```
-
----
-
-## Command-Line Tools
-
-Three CLI entry points are provided. The CLI tools support all features available in the Python API (voice cloning, voice design, auto voice, generation parameters, etc.) — all controlled via command-line arguments.
-
-| Command | Description | Source |
-|---|---|---|
-| `omnivoice-demo` | Interactive Gradio web demo | [omnivoice/cli/demo.py](omnivoice/cli/demo.py) |
-| `omnivoice-infer` | Single-item inference | [omnivoice/cli/infer.py](omnivoice/cli/infer.py) |
-| `omnivoice-infer-batch` | Batch inference across multiple GPUs | [omnivoice/cli/infer_batch.py](omnivoice/cli/infer_batch.py) |
-
-### Demo
-
-```bash
-omnivoice-demo --ip 0.0.0.0 --port 8001
-```
-
-Provides a web UI for voice cloning and voice design. See `omnivoice-demo --help` for all options.
-
-### Single Inference
-
-```bash
-# Voice Cloning
-# ref_text can be omitted (Whisper will auto-transcribe ref_audio to get it).
-omnivoice-infer \
-    --model k2-fsa/OmniVoice \
-    --text "This is a test for text to speech." \
-    --ref_audio ref.wav \
-    --ref_text "Transcription of the reference audio." \
-    --output hello.wav
-
-# Voice Design
-omnivoice-infer --model k2-fsa/OmniVoice \
-    --text "This is a test for text to speech." \
-    --instruct "male, British accent" \
-    --output hello.wav
-
-# Auto Voice
-omnivoice-infer \
-    --model k2-fsa/OmniVoice \
-    --text "This is a test for text to speech."\
-    --output hello.wav
-```
-
-### Batch Inference
-
-`omnivoice-infer-batch` can distribute batch inference across multiple GPUs, designed for large-scale TTS tasks.
-
-```bash
-omnivoice-infer-batch \
-    --model k2-fsa/OmniVoice \
-    --test_list test.jsonl \
-    --res_dir results/
-```
-
-The test list is a JSONL file where each line is a JSON object:
-```json
-{"id": "sample_001", "text": "Hello world", "ref_audio": "/path/to/ref.wav", "ref_text": "Reference transcript", "instruct": "female, british accent", "language_id": "en", "duration": 10.0, "speed": 1.0}
-```
-Only `id` and `text` are mandatory fields. `ref_audio` and `ref_text` are used in voice cloning mode. `instruct` is used in voice design mode. If no reference audio or instruct are provided, the model will generate text in a random voice.
-
-`language_id`, `duration`, and `speed` are optional. `duration` (in seconds) fixes the output length; `speed` controls the speaking rate. If `duration` and `speed` are both provided, `speed` will be ignored.
-
-### FlashInfer Acceleration
-
-Inference can be accelerated ~2-2.9x losslessly with [FlashInfer](https://github.com/flashinfer-ai/flashinfer) kernels (sequence packing for the CFG cond/uncond pair, fused RMSNorm/RoPE/GEMM kernels, and optional CUDA graphs).
-
-**Installation** (NVIDIA GPUs; pick the index matching your CUDA version, e.g. cu128 for PyTorch built with CUDA 12.8):
-
-```bash
-pip install flashinfer-python==0.6.15.post1 "flashinfer-jit-cache==0.6.15.post1+cu128" \
-    --extra-index-url https://flashinfer.ai/whl/cu128/
-```
-
-**Usage** with the batch inference CLI:
-
-```bash
-omnivoice-infer-batch \
-    --model k2-fsa/OmniVoice \
-    --test_list test.jsonl \
-    --res_dir results/ \
-    --batch_size 8 \
-    --enable_flashinfer true
-```
-
-or with the Python API:
-
-```python
-from omnivoice.models.omnivoice_flashinfer import apply_flashinfer
-
-model = OmniVoice.from_pretrained("k2-fsa/OmniVoice", device_map="cuda", dtype=torch.float16)
-apply_flashinfer(model)                          # throughput / batched inference
-apply_flashinfer(model, enable_cuda_graph=True)  # recommended for batch=1 (low latency)
-```
-
-CUDA graphs are recommended for single-stream (batch=1) usage, where kernel-launch overhead dominates; at batch >= 4 the plain FlashInfer path is already the fastest configuration.
-
-**Benchmark** (seed-tts zh testset, 2020 samples / 3.3h audio, voice cloning, single H100, fp16, `num_step=32`; Average RTF as reported by `omnivoice-infer-batch`, outputs ASR-verified lossless):
-
-| batch size | baseline | FlashInfer | speedup |
-|---|---|---|---|
-| 1 | 0.0899 | 0.0430 | 2.1x |
-| 1 + CUDA graph | — | 0.0367 | 2.4x |
-| 2 | 0.0480 | 0.0245 | 2.0x |
-| 4 | 0.0331 | 0.0152 | 2.2x |
-| 8 | 0.0298 | **0.0115** | **2.6x** |
-
----
-
-## Training & Evaluation
-
-See [examples/](examples/) for the complete pipeline — from data preparation to training, evaluation, and finetuning.
-
----
 
 ## Discussion & Communication
 
@@ -395,15 +766,6 @@ You can also scan the QR code to join our wechat group or follow our wechat offi
 | Wechat Group | Wechat Official Account |
 | ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
-
----
-
-## Community Projects
-
-OmniVoice is supported by a growing ecosystem of community projects.
-Explore them in [Community Projects](docs/community-projects.md).
-
----
 
 ## Citation
 
@@ -416,7 +778,9 @@ Explore them in [Community Projects](docs/community-projects.md).
 }
 ```
 
----
+## License
+
+Our code is released under the Apache 2.0 License. The pre-trained model is licensed under the CC-BY-NC due to constraints from its training data (e.g., Emilia).
 
 ## Disclaimer
 
