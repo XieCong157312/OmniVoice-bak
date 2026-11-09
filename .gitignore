@@ -3,6 +3,7 @@ __pycache__/
 *.pyo
 *.egg-info/
 *.egg
+models/
 dist/
 build/
 .venv/
@@ -17,7 +18,7 @@ build/
 /.tmp/
 /results/
 /data/
-/download
+/downloadss
 /local/
 /run*
 example.py
